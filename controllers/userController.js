@@ -29,7 +29,7 @@ export function createUser(req,res){
         }
     )
 }
-
+ 
 export function loginUser(req,res){
     const email = req.body.email
     const password = req.body.password
@@ -69,4 +69,5 @@ export function loginUser(req,res){
 
         }
     )
+    
 }
